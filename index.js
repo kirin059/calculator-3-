@@ -44,5 +44,5 @@ reset.addEventListener("click", (e) => {
 const del = document.querySelector(".del");
 del.addEventListener("click", (e) => {
     // console.log(e.target);
-    current.value = current.value.slice(btnClick.length, -2); // 음수 인덱스는배열 끝에서부터의 자를 갯수 길이를 나타낸다(뒤에서 1개씩 삭제)
+    current.value = current.value.slice(btnClick.length, -1); // 음수 인덱스는배열 끝에서부터의 자를 갯수 길이를 나타낸다(뒤에서 1개씩 삭제)
 });
